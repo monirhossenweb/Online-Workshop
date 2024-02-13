@@ -1,0 +1,257 @@
+@media(max-width: 1440px){}
+@media(max-width: 1366px){
+	.container{
+		max-width: 1200px !important;
+	}
+}
+@media(max-width: 1100px){}
+@media(max-width: 1085px){
+    .navbar-expand-lg .navbar-nav {
+    gap: 20px;
+   }
+   .navbar ul li a {
+    font-weight: 600;
+    font-size: 23px;
+}
+}
+
+@media(max-width: 1024px){
+	.navbar-expand-lg .navbar-nav {
+    gap: 16px;
+   }
+   .navbar ul li a {
+    font-size: 20px;
+   }
+   .workshop h3 {
+    padding-top: 35px;
+    font-size: 45px;
+  }
+  .workshop-section {
+    padding-top: 40px;
+}
+  .workshop p {
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+  .botton .btn-secondary {
+    font-size: 18px;
+}
+.about h3 {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.about h4 {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.about p {
+    font-size: 18px;
+}
+.about ul li a {
+    font-size: 20px;
+}
+.about h5 {
+    font-size: 25px;
+}
+.contact h2 {
+    font-size: 45px;
+}
+.contact p {
+    font-size: 18px;
+}
+.contact-section input[type=text], select, textarea {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 1000px){
+	.container{
+		max-width: 980px !important;
+	}
+}
+
+@media(max-width: 991px){
+      
+      .navbar-toggler {
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    background: orange;
+    border: 2px solid gray;
+}
+
+	.offcanvas-header{
+		background-color: orange;
+	}
+    .workshop p {
+    font-size: 20px;
+}
+.workshop h3 {
+    font-size: 40px;
+}
+.about h3 {
+    font-size: 40px;
+}
+.furniture-section h2 {
+    font-size: 45px;
+}
+.furniture .box1 h3 {
+    font-size: 30px;
+}
+.service p {
+    font-size: 20px;
+}
+.service h3 {
+    font-size: 30px;
+}
+.service ul li {
+    font-size: 20px;
+}
+.info .info1 {
+    padding-top: 100px;
+}
+.info1 h3 {
+    font-size: 30px;
+}
+.info1 h4 {
+    font-size: 16px;
+}
+.contact h2 {
+    font-size: 40px;
+}
+}
+
+
+@media(max-width: 768px){
+	.logo a {
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 0px; 
+}
+.logo img {
+    width: 11%;
+}
+.workshop h3 {
+    font-size: 35px;
+}
+.workshop p {
+    font-size: 17px;
+}
+.botton .btn-secondary {
+    font-size: 16px;
+    padding: 13px 20px 13px;
+}
+.about h4 {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.about h3 {
+    font-size: 34px;
+}
+.about p {
+    font-size: 16px;
+}
+.about ul li a {
+    font-size: 18px;
+}
+.furniture-section h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.furniture .box1 h3 {
+    font-size: 25px;
+}
+.furniture .box1 p{
+    font-size: 15px;
+}
+.service p {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.service {
+    padding: 50px;
+}
+.service ul li {
+    font-size: 16px;
+}
+.info1 p {
+    font-size: 17px;
+}
+.info .info1 {
+    padding-top: 80px;
+}
+.info1 h3 {
+    font-size: 25px;
+}
+.info1 h4 {
+    font-size: 14px;
+}
+.contact h2 {
+    font-size: 35px;
+}
+.contact p {
+    font-size: 16px;
+}
+.contact-section input[type=text], select, textarea {
+    font-size: 13px;
+}
+.contact-section input[type=submit] {
+    padding: 12px;
+    font-size: 16px;
+    width: 20%;
+}
+.address {
+    color: white;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}
+
+}
+@media(max-width: 575px){
+.workshop-section {
+    padding-top: 0px;
+}
+.about h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.about h4 {
+    padding-bottom: 3px;
+    font-size: 18px;
+}
+.furniture-section {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.info1 p {
+    padding-bottom: 10px;
+}
+.contact h2 {
+    text-align: center;
+}
+.col-25 {
+    width: 100%;
+}
+.submit-button{
+	text-align: center;
+}
+.contact-section input[type=submit] {
+    padding: 15px;
+    font-size: 16px;
+    float: none;
+    width: 50%;
+}
+}
+@media(max-width: 518px){
+    .logo{
+        width: 70%;
+    }
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+     font-size: 17px;
+    padding: 8px;
+}
+}
